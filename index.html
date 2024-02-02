@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+      crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <script src="https://kit.fontawesome.com/fb85480140.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="assets/css/bootstrap.css"> 
+
+      <!-- CSS -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <title>Energy Trans Martabe</title>
+
+      <!-- animate on scroll -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top u_opacity">
+        <div class="container">
+          <a class="brand" href="#">ENTRAMAS <br>
+            <p>PT. Energy Trans Martabe</p>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about_us.html"><b>About Us</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#service"><b>Services</b></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#product"><b>Product</b></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#contact"><b>Contact</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <button onclick="topFunction()" id="btn-back-to-top" title="Go to top" class="ToTop"></button> 
+
+      <!-- jumbotron -->
+      <section>
+        <div id="carouseljumbotron" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="jumbotron bg-1">
+                <!-- <h1 class="display-4"><strong>Entramas International</strong></h1>
+                <p class="lead"><strong>GLOBAL INDUSTRIAL & MINING SUPPLY <br> CHAIN EXPERT & END TO END INTEGRATED PROCUREMENT SERVICES.</strong></p> -->
+                <div class="lead_text_container">
+                <img class="lead_text" src="img/lead_text_transparent.png">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="jumbotron bg-3">
+                <!-- <h1 class="display-4"><strong>Entramas International</strong></h1>
+                <p class="lead"><strong>GLOBAL INDUSTRIAL & MINING SUPPLY <br> CHAIN EXPERT & END TO END INTEGRATED PROCUREMENT SERVICES.</strong></p> -->
+                <div class="lead_text_container2">
+                  <img class="lead_text" src="img/lead_text_transparent2.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouseljumbotron" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouseljumbotron" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </section>
+      <!-- jumbotron -->
+
+      <!-- service -->
+      <section id="service" class="extended_bottom">
+        <h3 class="mt-5 text-center content" data-aos="zoom-in" data-aos-duration="2000">Our Services</h3>
+        <div class="ourService">
+          <div class="row text-center">
+            <div class="col-md-4 p-4" data-aos="fade-down"  data-aos-duration="2000">
+              <i class="fa fa-oil-can fa-2x"></i>
+              <h5>Oil & Gas</h5>
+            </div>
+            <div class="col-md-4 p-4" data-aos="fade-down"  data-aos-duration="2000">
+              <i class="fa-solid fa-bore-hole fa-2x"></i>
+              <h5>Mining</h5>
+            </div>
+            <div class="col-md-4 p-4" data-aos="fade-down"  data-aos-duration="2000">
+              <i class="fa-solid fa-oil-well fa-2x"></i>
+              <h5>Petrochemical</h5>
+            </div>
+            <div class="col-md-4 p-4" data-aos="fade-up"  data-aos-duration="2000">
+              <i class="fa fa-plane fa-2x"></i>
+              <h5>Aviation</h5>
+            </div>
+            <div class="col-md-4 p-4" data-aos="fade-up"  data-aos-duration="2000">
+              <i class="fa fa-water fa-2x"></i>
+              <h5>Marine</h5>
+            </div>
+            <div class="col-md-4 p-4" data-aos="fade-up"  data-aos-duration="2000">
+              <i class="fa fa-train fa-2x"></i>
+              <h5>Railway</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- service -->
+
+      <!-- produk -->
+      <section id="product">
+        <h3 class="mt-5 text-center" data-aos="zoom-in-up" data-aos-duration="2000">Distributorship</h3><br>
+        <div id="carouselcustomer" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/distribute1.png" class="d-block w-100 h-max2" alt="customer1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/distribute2.png" class="d-block w-100 h-max2" alt="customer2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/distribute3.png" class="d-block w-100 h-max2" alt="customer3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/distribute4.png" class="d-block w-100 h-max2" alt="customer4">
+            </div>
+            <div class="carousel-item">
+              <img src="img/distribute5.png" class="d-block w-100 h-max2" alt="customer4">
+            </div>
+          </div>
+        </div>
+
+        <h3 class="mt-5 text-center" data-aos="flip-right" data-aos-duration="2000">Our Products</h3><br>
+        <div id="carouselpartner" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/partner1.png" class="d-block w-100 h-max1" alt="partner1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner2.png" class="d-block w-100 h-max1" alt="partner2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner3.png" class="d-block w-100 h-max1" alt="partner3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner4.png" class="d-block w-100 h-max1" alt="partner4">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner5.png" class="d-block w-100 h-max1" alt="partner5">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner6.png" class="d-block w-100 h-max1" alt="partner6">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner7.png" class="d-block w-100 h-max1" alt="partner7">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner8.png" class="d-block w-100 h-max1" alt="partner8">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner9.png" class="d-block w-100 h-max1" alt="partner9">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner10.png" class="d-block w-100 h-max1" alt="partner10">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner11.png" class="d-block w-100 h-max1" alt="partner11">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner12.png" class="d-block w-100 h-max1" alt="partner12">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner13.png" class="d-block w-100 h-max1" alt="partner13">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner14.png" class="d-block w-100 h-max1" alt="partner14">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner15.png" class="d-block w-100 h-max1" alt="partner15">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner16.png" class="d-block w-100 h-max1" alt="partner16">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner17.png" class="d-block w-100 h-max1" alt="partner17">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner18.png" class="d-block w-100 h-max1" alt="partner18">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner19.png" class="d-block w-100 h-max1" alt="partner19">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner20.png" class="d-block w-100 h-max1" alt="partner20">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner21.png" class="d-block w-100 h-max1" alt="partner21">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner22.png" class="d-block w-100 h-max1" alt="partner22">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner23.png" class="d-block w-100 h-max1" alt="partner23">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner24.png" class="d-block w-100 h-max1" alt="partner24">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner25.png" class="d-block w-100 h-max1" alt="partner25">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner26.png" class="d-block w-100 h-max1" alt="partner26">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner27.png" class="d-block w-100 h-max1" alt="partner27">
+            </div>
+            <div class="carousel-item">
+              <img src="img/partner28.png" class="d-block w-100 h-max1" alt="partner28">
+            </div>
+          </div>
+          <div class="button_container">
+              <a href="product.html" class="button">More</a>
+          </div>
+        </div>
+
+        <h3 class="mt-5 text-center" data-aos="flip-up" data-aos-duration="2000">Our Valued Customer</h3><br>
+        <div id="carouselcustomer" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/beloved customer1.png" class="d-block w-100 h-max1" alt="customer1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/beloved customer2.png" class="d-block w-100 h-max1" alt="customer2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/beloved customer3.png" class="d-block w-100 h-max1" alt="customer3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/beloved customer4.png" class="d-block w-100 h-max1" alt="customer4">
+            </div>
+          </div>
+          <div class="button_container">
+            <a href="customer.html" class="button">More</a>
+          </div>
+        </div>
+      </section>
+      <!-- produk -->
+
+    <!-- contact -->
+    <section id="contact" class="extended_bottom">
+      <h3 class="mt-5 text-center" data-aos="fade-down" data-aos-duration="2000">Contact Us</h3><br>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="row">
+          <div class="col-6 col-md-4" data-aos="fade-up"  data-aos-duration="2000">
+            <h5>Address</h5>
+            <p>
+              Jln Kesehatan 8 Kav. No. 122 Caman Raya 
+              Bekasi - Zip code: 17412 - Indonesia 
+            </p>
+          </div>
+          <div class="col-6 col-md-4" data-aos="fade-up"  data-aos-duration="2000">
+            <h5>Email</h5>
+            <p>
+              info@entramas.com
+            </p>
+          </div>
+          <div class="col-6 col-md-4" data-aos="fade-up"  data-aos-duration="2000">
+            <h5>WA/Mobile</h5>
+            <p>
+              +62 812 3444 1377
+            </p>
+          </div>
+        </div>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15864.298106510549!2d106.9553791!3d-6.2539116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c6407eefedc9524!2sEntramas(PT.%20Energy%20Trans%20Martabe)!5e0!3m2!1sen!2sid!4v1669904468235!5m2!1sen!2sid"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+      </div>
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <!-- Section: Links  -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <div class="footer_company_part1">Entramas <span class="footer_company_part2">International</span></div>
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="about_us.html">About Us</a>
+          ·
+          <a href="#service">Service</a>
+          ·
+          <a href="#product">Product</a>
+          ·
+          <a href="#contact">Contact</a>
+        </p>
+        <p class="footer-company-name">Entramas International &copy; 2022</p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><a href="https://goo.gl/maps/xs3vweoxyy8nfggG8">Jln Kesehatan 8 Kav. No. 122 Bekasi<br> Jawa Barat, Indonesia</a></p>
+        </div>
+        <div>
+          <i class="fa fa-whatsapp"></i>
+          <p>+62 812 3444 1377</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:info@entramas.com">info@entramas.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer_motto">
+        GLOBAL SOURCING MADE SIMPLE
+        </p>
+        <div class="footer-icons">
+          <a href="https://www.linkedin.com/in/energytransmartabe/"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script>
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
